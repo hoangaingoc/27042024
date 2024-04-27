@@ -20,8 +20,6 @@
     // let count = 0
     // let tong = 0
     // let tich = 1
-    let x = 0
-    let y = 0
     let n = +prompt('Nhap gia tri: ')
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < arr[i].length; j++) {
@@ -38,9 +36,7 @@
             //     max = arr[i][j]
             // }
             if (arr[i][j] == n) {
-                x = i
-                y = j
-                document.write(x+','+y+'<hr>')
+                document.write(i+','+j+'<hr>')
             }
         }
     }
